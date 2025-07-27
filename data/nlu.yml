@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - not really
+
+# ... (keep the intents greet, goodbye, affirm, deny as they are) ...
+
+- intent: ask_career
+  examples: |
+    - Tell me about tech careers
+    - I'm interested in technology
+    - What jobs are there in tech?
+    - I like computers and programming
+    - suggest a career in software
+    - What about a career in the arts?
+    - I'm a creative person
+    - I like painting and design
+    - suggest a career in arts
+    - what about creative fields
+    - Tell me about commerce careers
+    - I'm interested in business
+    - What jobs are in finance?
+    - I like accounts and economics
+    - suggest a business career
+    - i am interested in AIML
+    - what about machine learning
+    - Tell me about being a [software developer](career)
+    - what does a [graphic designer](career) do?
+    - I am interested in [financial analyst](career) roles
+    - what is a [software developer](career)?
+    - describe the job of a [graphic designer](career)

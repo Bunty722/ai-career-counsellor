@@ -1,0 +1,21 @@
+version: "3.1"
+
+stories:
+- story: happy path - user asks for career advice
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_career
+  - action: action_provide_recommendation
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: user just asks for career advice
+  steps:
+  - intent: ask_career
+  - action: action_provide_recommendation
+
+- story: simple goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
