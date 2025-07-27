@@ -1,0 +1,26 @@
+version: "3.1"
+
+actions:
+  - action_provide_recommendation
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - ask_career
+
+responses:
+  utter_greet:
+  - text: "Hey! I am your AI career counsellor. How can I help you today?"
+
+  utter_goodbye:
+  - text: "Goodbye! Best of luck with your career path."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

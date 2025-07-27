@@ -1,0 +1,17 @@
+{
+  "software developer": {
+    "description": "Software developers are the creative minds behind computer programs. They design, develop, and maintain software applications to meet user needs.",
+    "skills": ["Python, Java, or C++", "SQL databases", "Data structures and algorithms", "Git version control"],
+    "fields": ["Web Development", "Mobile App Development", "Game Development", "Data Science"]
+  },
+  "graphic designer": {
+    "description": "Graphic designers create visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop the overall layout and production design for advertisements, brochures, magazines, and reports.",
+    "skills": ["Adobe Creative Suite (Photoshop, Illustrator, InDesign)", "Typography", "Color theory", "UI/UX principles"],
+    "fields": ["Branding", "Marketing & Advertising", "Web Design", "Publishing"]
+  },
+  "financial analyst": {
+    "description": "Financial analysts guide businesses and individuals in decisions about spending money to attain profit. They assess the performance of stocks, bonds, and other types of investments.",
+    "skills": ["Financial modeling", "Excel proficiency", "Data analysis", "Valuation techniques"],
+    "fields": ["Investment Banking", "Corporate Finance", "Portfolio Management", "Equity Research"]
+  }
+}
